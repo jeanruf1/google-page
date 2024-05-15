@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logoprincipal{
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.botao{
+    padding: 5px 15px;
+    border: 1px solid #e1e3e1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 590px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.botao:hover{
+    box-shadow: 0px 0px 5px #e1e3e1;
+}
+
+.botao input{
+    margin-left: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-size: 100%;
+}
+
+.right{
+    padding-top: 5px;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.blocks button{
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-left: 15px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+}
+
+.blocks button:hover{
+    box-shadow: 0px 0px 2px #a7a7a7;
+    border-radius: 4px;
+}
+
+.button a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    gap: 20px;
+}
+
+nav .link{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    padding-top: 10px;
+}
+
+nav .linktwo{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .hamburguer{
+    margin-top: 5px;
+}
+
+nav figure img{
+    width: 40px;
+    border-radius: 100%;
+}
+
+nav figure img:hover{
+    box-shadow: 0px 0px 4px rgb(10, 10, 125);
+    cursor: pointer;
+}
+
+
+nav .hamburguer:hover{
+    background-color: #e4e4e4;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+nav .link:hover{
+    text-decoration:underline ;
+}
+
+
+footer{
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer{
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+footer p{
+    padding: 15px;
+}
+
+.footerlow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #dadada;
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+    
+}
+ .alink{    
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .botao{
+        width: 100%;
+    }
+
+    header{
+    
+        transform: scale(0.7);
+    }
+
+    nav {
+        margin-right: 5px;
+    }
+
+    .menu{
+        margin-top: 80px;
+        transform: scale(0.7);
+        
+    }
+
+    .footerlow{
+        justify-content: space-evenly;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+
+    .alink{
+        margin-right: 5px;
+        font-size: 12px;
+    }
+
+}
