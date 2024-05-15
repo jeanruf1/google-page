@@ -12,7 +12,7 @@ O projeto UI Clone da página inicial do Google foi desenvolvido para fins de es
  - **HTML5**
  - **CSS3**
 
--------
+--
 
 ## 🖥️ Demonstração
 <img src="./assets/google-print.png" alt="">
