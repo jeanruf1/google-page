@@ -18,6 +18,7 @@ O projeto UI Clone da página inicial do Google foi desenvolvido para fins de es
 <img src="./assets/google-print.png" alt="">
 
 Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/ui-google-clone/).
+
 ---
 
 ## 🔧 Como executar o projeto
@@ -32,4 +33,5 @@ cd ui-glone-google
 Depois disso, utilize uma ferramenta como o [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para criar um servidor local e executar o projeto.
 
 ----
+
 **Desenvolvido com ❤️ por [Jean Rufino](https://github.com/jeanruf1/).**
