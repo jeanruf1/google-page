@@ -23,8 +23,6 @@ Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/ui-googl
 
 ## 🔧 Como executar o projeto
 
----
-
 ```bash
 # Clone o repositório
 git clone https://jeanruf1.github.io/ui-clone-google/
