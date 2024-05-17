@@ -17,7 +17,7 @@ O projeto UI Clone da página inicial do Google foi desenvolvido para fins de es
 ## 🖥️ Demonstração
 <img src="./assets/google-print.png" alt="">
 
-Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/ui-google-clone/).
+Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/clipboard-landing-page-master/).
 
 ---
 
@@ -25,7 +25,7 @@ Você pode acessar o projeto clicando [aqui](https://jeanruf1.github.io/ui-googl
 
 ```bash
 # Clone o repositório
-git clone https://jeanruf1.github.io/ui-clone-google/
+git clone https://jeanruf1.github.io/clipboard-landing-page-master//
 
 # Entre no diretório
 cd ui-glone-google
